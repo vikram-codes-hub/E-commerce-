@@ -1,0 +1,30 @@
+# === Node.js (Backend) ===
+node_modules/
+.env
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+dist/
+build/
+coverage/
+
+# === React (Frontend) ===
+frontend/node_modules/
+frontend/build/
+frontend/.env
+frontend/.next/       # if using Next.js
+frontend/.cache/
+
+# === System files ===
+.DS_Store
+Thumbs.db
+
+# === IDE settings ===
+.vscode/
+.idea/
+*.swp
+
+# === Logs ===
+logs/
+*.log
+log.txt
